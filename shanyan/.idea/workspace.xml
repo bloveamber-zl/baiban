@@ -3,9 +3,64 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5459d726-37fe-4276-b475-142a96d06850" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shanyan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shanyan.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/CL_ShanYanSDK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/Headers/CLCompleteResult.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/Headers/CLShanYanSDKManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/Headers/CL_ShanYanSDK.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/EAccountApiSDK.framework/EAccountApiSDK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/EAccountApiSDK.framework/Headers/EAccountCTEConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/EAccountApiSDK.framework/Headers/EAccountJSEventHandler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/EAccountApiSDK.framework/Headers/EAccountPreLoginConfigModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/EAccountApiSDK.framework/Headers/EAccountSDK.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/OAuth.framework/Headers/ZOAuthManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/OAuth.framework/Headers/ZTOAuthManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/OAuth.framework/Headers/ZUOAuthManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/OAuth.framework/OAuth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/OAuth.framework/_CodeSignature/CodeDirectory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/OAuth.framework/_CodeSignature/CodeRequirements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/OAuth.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/OAuth.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/OAuth.framework/_CodeSignature/CodeSignature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/TYRZUISDK.framework/Headers/TYRZSDK.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/TYRZUISDK.framework/Headers/TYRZUISDK.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/TYRZUISDK.framework/Headers/UACustomModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/TYRZUISDK.framework/Headers/UAEnums.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/TYRZUISDK.framework/Headers/UASDKErrorCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/TYRZUISDK.framework/Headers/UASDKLogin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/TYRZUISDK.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/TYRZUISDK.framework/TYRZUISDK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/account_login_sdk_noui_core.framework/Headers/UniAuthHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/account_login_sdk_noui_core.framework/Headers/account_login_sdk_noui_core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/account_login_sdk_noui_core.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/account_login_sdk_noui_core.framework/account_login_sdk_noui_core" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/shanyan.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/shanyan.podspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +82,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="D:/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ios/Classes/framework" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ios/Classes/framework" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ios/Classes/framework" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
@@ -49,5 +113,42 @@
       <updated>1638243948909</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1522" height="502" key="GridCell.Tab.0.bottom" timestamp="1638336697548">
+      <screen x="1440" y="-50" width="2560" height="1415" />
+    </state>
+    <state width="1522" height="502" key="GridCell.Tab.0.bottom/0.25.1440.820/1440.-50.2560.1415@1440.-50.2560.1415" timestamp="1638336697548" />
+    <state width="1522" height="502" key="GridCell.Tab.0.center" timestamp="1638336697548">
+      <screen x="1440" y="-50" width="2560" height="1415" />
+    </state>
+    <state width="1522" height="502" key="GridCell.Tab.0.center/0.25.1440.820/1440.-50.2560.1415@1440.-50.2560.1415" timestamp="1638336697548" />
+    <state width="1522" height="502" key="GridCell.Tab.0.left" timestamp="1638336697547">
+      <screen x="1440" y="-50" width="2560" height="1415" />
+    </state>
+    <state width="1522" height="502" key="GridCell.Tab.0.left/0.25.1440.820/1440.-50.2560.1415@1440.-50.2560.1415" timestamp="1638336697547" />
+    <state width="1522" height="502" key="GridCell.Tab.0.right" timestamp="1638336697548">
+      <screen x="1440" y="-50" width="2560" height="1415" />
+    </state>
+    <state width="1522" height="502" key="GridCell.Tab.0.right/0.25.1440.820/1440.-50.2560.1415@1440.-50.2560.1415" timestamp="1638336697548" />
+    <state x="2618" y="140" key="SettingsEditor" timestamp="1638328161321">
+      <screen x="1440" y="-50" width="2560" height="1415" />
+    </state>
+    <state x="2618" y="140" key="SettingsEditor/0.25.1440.820/1440.-50.2560.1415@1440.-50.2560.1415" timestamp="1638328161321" />
+    <state x="2717" y="241" key="Vcs.Push.Dialog.v2" timestamp="1638329246524">
+      <screen x="1440" y="-50" width="2560" height="1415" />
+    </state>
+    <state x="2717" y="241" key="Vcs.Push.Dialog.v2/0.25.1440.820/1440.-50.2560.1415@1440.-50.2560.1415" timestamp="1638329246524" />
   </component>
 </project>

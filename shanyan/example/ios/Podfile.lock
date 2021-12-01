@@ -1,21 +1,21 @@
 PODS:
-  - shanyan (1.0.0):
-    - Flutter
   - Flutter (1.0.0)
+  - shanyan (1.0.1):
+    - Flutter
 
 DEPENDENCIES:
-  - shanyan (from `.symlinks/plugins/shanyan/ios`)
   - Flutter (from `Flutter`)
+  - shanyan (from `.symlinks/plugins/shanyan/ios`)
 
 EXTERNAL SOURCES:
-  shanyan:
-    :path: ".symlinks/plugins/shanyan/ios"
   Flutter:
     :path: Flutter
+  shanyan:
+    :path: ".symlinks/plugins/shanyan/ios"
 
 SPEC CHECKSUMS:
-  shanyan: c6185c43467c04154b55c08abd1361aa87a7cebd
   Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  shanyan: 19295038bf280fe9dde0eeaac06e30bb1d7a13d2
 
 PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
 

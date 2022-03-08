@@ -8,40 +8,25 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
 #import "CLCompleteResult.h"
-
-@protocol CLShanYanSDKManagerDelegate <NSObject>
-@optional
-//暂无代理回调
-@end
 
 NS_ASSUME_NONNULL_BEGIN
 @interface CLShanYanSDKManager : NSObject
 
-/// 设置点击协议代理
-/// @param delegate 代理
-+ (void)setCLShanYanSDKManagerDelegate:(id<CLShanYanSDKManagerDelegate>)delegate;
 
-/**
- 初始化
- @param appId 闪验后台申请的appId
- @param complete 预初始化回调block 
- */
+/// 初始化
+/// @param appId        闪验后台申请的appId
+/// @param complete     预初始化回调block
 +(void)initWithAppId:(NSString *)appId complete:(nullable CLComplete)complete;
 
-///**
-// 设置初始化超时 单位:s
-// 大于0有效
-// 建议4s左右，默认4s
-// */
+
+///// 设置初始化超时 单位:s （大于0有效，建议4s左右，默认4s）
+///// @param initTimeOut   初始化超时时间
 //+ (void)setInitTimeOut:(NSTimeInterval)initTimeOut;
 
-/**
- 设置预取号超时 单位:s
- 大于0有效
- 建议4s左右，默认4s
- */
+
+/// 设置预取号超时 单位:s（大于0有效， 建议4s左右，默认4s）
+/// @param preGetPhoneTimeOut 预取号超时时间
 + (void)setPreGetPhonenumberTimeOut:(NSTimeInterval)preGetPhoneTimeOut;
 
 
@@ -80,48 +65,51 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(void)preGetPhonenumber:(nullable CLComplete)complete;
 
-/**************一键登录获取Token***************/
-/// 注：此方法回调队列为dispatch_get_global_queue(0, 0)，如需UI操作请自行切入主线程
+
+/// 一键登录获取Token
+/// @param complete 此方法回调队列为dispatch_get_global_queue(0, 0)，如需UI操作请自行切入主线程
 +(void)loginAuth:(CLComplete)complete;
 
 
-
-
-/**************本机认证(本机号码校验)***************/
+/// 本机认证(本机号码校验)
+/// @param complete 此方法回调队列为dispatch_get_global_queue(0, 0)，如需UI操作请自行切入主线程
 + (void)mobileCheckWithLocalPhoneNumberComplete:(CLComplete)complete;
 
 
-
-
-/**************SDK功能方法***************/
-/**
- 模式控制台日志输出控制（默认关闭）
- @param enable 开关参数
- */
+/// 模式控制台日志输出控制（默认关闭）
+/// @param enable 开关参数
 + (void)printConsoleEnable:(BOOL)enable;
 
 
 /// 获取当前流量卡运营商，结果仅供参考
-// CTCC：电信、CMCC：移动、CUCC：联通、UNKNOW：未知
+/// CTCC：电信、CMCC：移动、CUCC：联通、UNKNOW：未知
 + (NSString *)getOperatorType;
 
+
+/// 清理缓存
 + (void)clearScripCache;
 
-/**
- 禁止日志上报(默认开启)
- ****此接口需要在初始化之前调用,否则配置不生效****
- @param forbidden YES:禁止上报 NO:允许上报
- */
+
+/// 禁止日志上报(默认开启，此接口需要在初始化之前调用,否则配置不生效)
+/// @param forbidden YES:禁止上报 NO:允许上报
 + (void)forbiddenFullLogReport:(BOOL)forbidden;
 
-+(void)sdkInit:(NSString *)appId complete:(nullable CLComplete)complete;
 
++ (void)sdkInit:(NSString *)appId complete:(nullable CLComplete)complete;
+
+
+/// 检测当前环境是否满足预取号
 + (BOOL)checkAuthEnable;
 
-/**
- * 当前SDK版本号
- */
+
+/// 获取当前卡数量
++ (NSInteger)currentSimCounts;
+
+
+/// 当前SDK版本号
 + (NSString *)clShanYanSDKVersion;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

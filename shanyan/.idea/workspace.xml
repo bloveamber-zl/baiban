@@ -23,13 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5459d726-37fe-4276-b475-142a96d06850" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shanyan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shanyan.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/CL_ShanYanSDK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/Headers/CLCompleteResult.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/Headers/CLShanYanSDKManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/Headers/CL_ShanYanSDK.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/framework/CL_ShanYanSDK.framework/Modules/module.modulemap" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/shanyan.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/shanyan.podspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,10 +60,10 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ios/Classes/framework" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ios/Classes/framework" />
     </key>
   </component>
@@ -97,6 +99,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2303" y="375" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1646706603842">
+      <screen x="1440" y="25" width="2560" height="1415" />
+    </state>
+    <state x="2303" y="375" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.830/1440.25.2560.1415@1440.25.2560.1415" timestamp="1646706603842" />
     <state x="2452" y="462" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1642752010069">
       <screen x="1440" y="25" width="2560" height="1415" />
     </state>

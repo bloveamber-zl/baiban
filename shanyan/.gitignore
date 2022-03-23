@@ -5,3 +5,14 @@
 .pub/
 
 build/
+/.idea/
+/.gradle/
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/build
+/captures
+.externalNativeBuild
+.idea

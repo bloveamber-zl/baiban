@@ -46,7 +46,7 @@ class _MyAppState extends State<MyApp> {
                 ),
                 MaterialButton(
                   onPressed: () {
-                    ClShanyan.printConsoleEnable(enable: false);
+                    ClShanyan.printConsoleEnable(enable: true);
                     String appId = "7I5nJT7h";
                     if (Platform.isAndroid) {
                       appId = "loXN4jDs";

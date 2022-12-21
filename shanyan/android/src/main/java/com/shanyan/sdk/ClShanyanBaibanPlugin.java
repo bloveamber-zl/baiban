@@ -59,7 +59,7 @@ public class ClShanyanBaibanPlugin implements FlutterPlugin, MethodCallHandler {
                 setDebug(call);
             } else if ("getShanyanVersion".equals(call.method)) {
                 //获取SDK版本
-                result.success("2.4.4.3");
+                result.success("2.4.4.5");
             } else if ("init".equals(call.method)) {
                 //初始化
                 init(call, result);

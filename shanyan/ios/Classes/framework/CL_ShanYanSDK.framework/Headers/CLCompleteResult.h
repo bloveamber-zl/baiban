@@ -27,7 +27,6 @@ typedef void(^CLComplete)(CLCompleteResult * completeResult);
 /// SDK内层msg
 @property (nonatomic,nullable,copy)NSString * innerDesc;
 
-
 @property (nonatomic,assign)NSInteger clShanYanReportTag;
 
 #ifdef DEBUG

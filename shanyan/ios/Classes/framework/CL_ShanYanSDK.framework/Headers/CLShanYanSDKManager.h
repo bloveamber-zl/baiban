@@ -13,22 +13,18 @@
 NS_ASSUME_NONNULL_BEGIN
 @interface CLShanYanSDKManager : NSObject
 
-
 /// 初始化
 /// @param appId        闪验后台申请的appId
 /// @param complete     预初始化回调block
 +(void)initWithAppId:(NSString *)appId complete:(nullable CLComplete)complete;
 
-
 /// 设置初始化超时 单位:s （大于0有效，建议4s左右，默认4s）
 /// @param initTimeOut   初始化超时时间
 + (void)setInitTimeOut:(NSTimeInterval)initTimeOut;
 
-
 /// 设置预取号超时 单位:s（大于0有效， 建议4s左右，默认4s）
 /// @param preGetPhoneTimeOut 预取号超时时间
 + (void)setPreGetPhonenumberTimeOut:(NSTimeInterval)preGetPhoneTimeOut;
-
 
 /// 当无蜂窝网络（拔出SIM卡/切换SIM卡,网络切换期间/或者直接关闭流量开关）是否使用之前的取号缓存
 /// @param isUseCache YES/NO  默认YES   设置为NO  获取SIM实时的预取号，无蜂窝网络、或者蜂窝网络不稳定则无法取号成功
@@ -65,56 +61,51 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)preGetPhonenumber:(nullable CLComplete)complete;
 
-
 /// 一键登录获取Token
 /// @param complete 此方法回调队列为dispatch_get_global_queue(0, 0)，如需UI操作请自行切入主线程
 + (void)loginAuth:(CLComplete)complete;
-
 
 /// 本机认证(本机号码校验)
 /// @param complete 此方法回调队列为dispatch_get_global_queue(0, 0)，如需UI操作请自行切入主线程
 + (void)mobileCheckWithLocalPhoneNumberComplete:(CLComplete)complete;
 
-
 /// 模式控制台日志输出控制（默认关闭）
 /// @param enable 开关参数
 + (void)printConsoleEnable:(BOOL)enable;
 
-
 /// 获取当前流量卡运营商，结果仅供参考
 /// CTCC：电信、CMCC：移动、CUCC：联通、UNKNOW：未知
+/// 使用xcode14.3+在iOS16.4+上返回UNKNOW时不准确
 + (NSString *)getOperatorType;
 
 
-/// 清理缓存
-+ (void)clearScripCache;
+/// 获取当前流量卡运营商。（在SDK初始化后使用，清理预取号缓存后使用更准确）
+/// - Parameters:
+///   - timeout: 超时时间(小于1秒会重置为4秒)
+///   - complete: telecom：CTCC：电信、CMCC：移动、CUCC：联通、UNKNOW：未知
+///               accurate：返回结果是否准确（为NO表示结果可能不准确）
++ (void)timeout:(NSTimeInterval)timeout getOperatorType:(void(^)(BOOL accurate, NSString *telecom))complete;
 
+/// 清理预取号缓存
++ (void)clearScripCache;
 
 /// 禁止日志上报获取IP（默认允许）
 /// @param forbidden YES:禁止 NO:允许
 + (void)forbiddenNonessentialIp:(BOOL)forbidden;
 
-
 /// 禁止日志上报(默认开启，此接口需要在初始化之前调用,否则配置不生效)
 /// @param forbidden YES:禁止上报 NO:允许上报
 + (void)forbiddenFullLogReport:(BOOL)forbidden;
 
-
-+ (void)sdkInit:(NSString *)appId complete:(nullable CLComplete)complete;
-
-
 /// 检测当前环境是否满足预取号
+/// 使用xcode14.3+在iOS16.4+返回YES时不准确
 + (BOOL)checkAuthEnable;
-
 
 /// 获取当前卡数量
 + (NSInteger)currentSimCounts;
 
-
 /// 当前SDK版本号
 + (NSString *)clShanYanSDKVersion;
 
-
 @end
-
 NS_ASSUME_NONNULL_END

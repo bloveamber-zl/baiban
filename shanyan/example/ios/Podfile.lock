@@ -1,6 +1,6 @@
 PODS:
   - Flutter (1.0.0)
-  - shanyan (1.0.6):
+  - shanyan (1.0.7):
     - Flutter
 
 DEPENDENCIES:
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
-  shanyan: ac6277f83f10940563cfb6647a952be17636eafc
+  shanyan: ba6cbfea7197b02b9af7163ff2ffb00ed453e405
 
 PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.12.1

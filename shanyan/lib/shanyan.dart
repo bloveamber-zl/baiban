@@ -82,4 +82,12 @@ class ClShanyan {
           {"preGetPhoneTimeOut": preGetPhoneTimeOut});
     }
   }
+  ///闪验SDK Android端获取预取号是否有缓存
+  static Future<bool?> getScripCache() async {
+    if (Platform.isAndroid) {
+      final bool? isScripCache = await _channel.invokeMethod('getScripCache');
+      return isScripCache;
+    }
+    return false;
+  }
 }

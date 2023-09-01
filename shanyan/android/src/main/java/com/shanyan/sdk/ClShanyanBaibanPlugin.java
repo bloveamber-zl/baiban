@@ -75,6 +75,9 @@ public class ClShanyanBaibanPlugin implements FlutterPlugin, MethodCallHandler {
             } else if ("clearScripCache".equals(call.method)) {
                 //清空预取号缓存
                 OneKeyLoginManager.getInstance().clearScripCache(context);
+            } else if ("getScripCache".equals(call.method)) {
+                //获取预取号是否有缓存
+                result.success(OneKeyLoginManager.getInstance().getScripCache(context));
             } else if ("setPreGetPhonenumberTimeOut".equals(call.method)) {
                 //设置预取号超时时间
                 setTimeOutForPreLogin(call);

@@ -4,8 +4,8 @@ version: 1.0.7
 homepage: https://sdk.253.com/
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.20.0"
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: '>=1.20.0'
 
 dependencies:
   flutter:
@@ -17,7 +17,6 @@ dev_dependencies:
     sdk: flutter
   build_runner: ^2.1.2
   json_serializable: ^4.1.4
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -32,8 +31,6 @@ flutter:
     platforms:
       android:
         package: com.shanyan.sdk
-        pluginClass: ClShanyanBaibanPlugin
-      ios:
         pluginClass: ClShanyanBaibanPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
